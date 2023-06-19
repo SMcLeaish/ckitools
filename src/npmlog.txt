@@ -571,3 +571,197 @@ webpack compiled successfully
 Compiling...
 Compiled successfully!
 webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/MapBase.js
+Syntax error: Unexpected token (7:35) (7:35)
+ERROR in ./src/MapBase.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/sm/projects/ckitools/src/MapBase.js: Unexpected token (7:35)
+
+   5 |
+   6 |   return(
+>  7 |  <div style={{ zIndex: '90', 'flex', justifyContent: 'center', paddingTop: '10vh' , height: '100vh', width: '100%'}}>
+     |                                    ^
+   8 |       <div style={{ display:'flex', height:'60vh', width:'70%', border: '2px solid black'}}>
+   9 |       <MapContainer center={[35.07796209565608, -79.03403208754044]} zoom={13} style={{ height: "100%", width: "100%" }}> 
+  10 |           <TileLayer
+    at instantiate (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:63:32)
+    at constructor (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:358:12)
+    at FlowParserMixin.raise (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:3255:19)
+    at FlowParserMixin.unexpected (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:3285:16)
+    at FlowParserMixin.parseObjPropValue (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:11824:21)
+    at FlowParserMixin.parseObjPropValue (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:5568:26)
+    at FlowParserMixin.parsePropertyDefinition (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:11757:17)
+    at FlowParserMixin.parseObjectLike (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:11672:21)
+    at FlowParserMixin.parseExprAtom (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:11182:23)
+    at FlowParserMixin.parseExprAtom (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:6974:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10890:23)
+    at FlowParserMixin.parseUpdate (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10873:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10849:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10687:61)
+    at FlowParserMixin.parseExprOps (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10692:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10669:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10630:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:5797:18)
+    at FlowParserMixin.parseExpressionBase (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10584:23)
+    at /Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10580:39
+    at FlowParserMixin.allowInAnd (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:12280:12)
+    at FlowParserMixin.parseExpression (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10580:17)
+    at FlowParserMixin.jsxParseExpressionContainer (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:6834:31)
+    at FlowParserMixin.jsxParseAttributeValue (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:6802:21)
+    at FlowParserMixin.jsxParseAttribute (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:6855:38)
+    at FlowParserMixin.jsxParseOpeningElementAfterName (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:6869:28)
+    at FlowParserMixin.jsxParseOpeningElementAt (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:6864:17)
+    at FlowParserMixin.jsxParseElementAt (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:6888:33)
+    at FlowParserMixin.jsxParseElement (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:6957:17)
+    at FlowParserMixin.parseExprAtom (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:6969:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10890:23)
+    at FlowParserMixin.parseUpdate (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10873:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10849:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10687:61)
+    at FlowParserMixin.parseExprOps (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10692:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10669:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10630:21)
+    at /Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:5742:39
+    at FlowParserMixin.tryParse (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:3634:20)
+    at FlowParserMixin.parseMaybeAssign (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:5742:18)
+    at /Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10600:39
+    at FlowParserMixin.allowInAnd (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:12280:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10600:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:11513:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:5841:18)
+    at FlowParserMixin.parseExprAtom (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:11164:23)
+    at FlowParserMixin.parseExprAtom (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:6974:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10890:23)
+    at FlowParserMixin.parseUpdate (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10873:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10849:23)
+
+ERROR in [eslint] 
+src/MapBase.js
+  Line 7:35:  Parsing error: Unexpected token (7:35)
+
+webpack compiled with 2 errors
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/MapBase.js
+Syntax error: Unexpected token, expected "," (8:48) (8:48)
+ERROR in ./src/MapBase.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/sm/projects/ckitools/src/MapBase.js: Unexpected token, expected "," (8:48)
+
+   6 |   return(
+   7 |     <div style={{ zIndex: '1', display: 'flex', justifyContent: 'center', paddingTop: '10vh' , height: '100vh', width: '100%'}}>
+>  8 |       <div style={{ display:'flex',zIndex: '2'  height:'60vh', width:'70%', border: '2px solid black'}}>
+     |                                                 ^
+   9 |       <MapContainer center={[35.07796209565608, -79.03403208754044]} zoom={13} style={{ height: "100%", width: "100%" }}> 
+  10 |           <TileLayer
+  11 |           url='https://tile.openstreetmap.org/{z}/{x}/{y}.png'
+    at instantiate (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:63:32)
+    at constructor (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:358:12)
+    at FlowParserMixin.raise (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:3255:19)
+    at FlowParserMixin.unexpected (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:3285:16)
+    at FlowParserMixin.expect (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:3627:28)
+    at FlowParserMixin.parseObjectLike (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:11662:14)
+    at FlowParserMixin.parseExprAtom (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:11182:23)
+    at FlowParserMixin.parseExprAtom (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:6974:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10890:23)
+    at FlowParserMixin.parseUpdate (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10873:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10849:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10687:61)
+    at FlowParserMixin.parseExprOps (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10692:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10669:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10630:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:5797:18)
+    at FlowParserMixin.parseExpressionBase (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10584:23)
+    at /Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10580:39
+    at FlowParserMixin.allowInAnd (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:12280:12)
+    at FlowParserMixin.parseExpression (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10580:17)
+    at FlowParserMixin.jsxParseExpressionContainer (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:6834:31)
+    at FlowParserMixin.jsxParseAttributeValue (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:6802:21)
+    at FlowParserMixin.jsxParseAttribute (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:6855:38)
+    at FlowParserMixin.jsxParseOpeningElementAfterName (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:6869:28)
+    at FlowParserMixin.jsxParseOpeningElementAt (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:6864:17)
+    at FlowParserMixin.jsxParseElementAt (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:6888:33)
+    at FlowParserMixin.jsxParseElementAt (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:6900:32)
+    at FlowParserMixin.jsxParseElement (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:6957:17)
+    at FlowParserMixin.parseExprAtom (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:6969:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10890:23)
+    at FlowParserMixin.parseUpdate (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10873:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10849:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10687:61)
+    at FlowParserMixin.parseExprOps (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10692:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10669:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10630:21)
+    at /Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:5742:39
+    at FlowParserMixin.tryParse (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:3634:20)
+    at FlowParserMixin.parseMaybeAssign (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:5742:18)
+    at /Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10600:39
+    at FlowParserMixin.allowInAnd (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:12280:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10600:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:11513:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:5841:18)
+    at FlowParserMixin.parseExprAtom (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:11164:23)
+    at FlowParserMixin.parseExprAtom (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:6974:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10890:23)
+    at FlowParserMixin.parseUpdate (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10873:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10849:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/sm/projects/ckitools/node_modules/@babel/parser/lib/index.js:10687:61)
+
+ERROR in [eslint] 
+src/MapBase.js
+  Line 8:48:  Parsing error: Unexpected token, expected "," (8:48)
+
+webpack compiled with 2 errors
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully

@@ -7,6 +7,8 @@
   justify-content: flex-start;
   color: white;
   flex-shrink: 0;
+  position: fixed;
+  z-index: 100;
 }
 .text {
   margin-left: 2vh;
